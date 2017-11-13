@@ -1,0 +1,161 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+[class*="typicons-"]:before {
+    font-family: 'typicons', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+[class*="fontawesome-"]:before {
+    font-family: 'fontawesome', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+    color: white;
+    font-size: 25px;
+    
+}
+sup{
+    color: #7BB5C7;
+}
+.left_nav{
+    float:left;
+}
+.menu{
+    font-size: 20px;
+    color: white;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-left: 8%;
+}
+.container{
+    width:90%;
+    background-color: #434a53;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    
+}
+.portfolio:after{
+content: "";
+display: block;
+width: 6%;
+border-bottom:4px solid skyblue;
+}
+li{
+    padding:10px;
+}
+.padding-zero
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.main{
+    background-color: #22262c;
+    padding-left: 8% !important;
+    padding: 3% ;
+    margin-top: 7px;
+}
+.main_contents{
+    border: 2px solid white;
+}
+.ten{
+    font-family: system-ui;
+    font-size: 20px;
+    color: white;
+    padding-left:8%;
+    font-weight: 700;
+}
+.portfolio{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;  
+}
+.contents{
+   
+    padding: 8%;
+}
+img{
+    height: 40%;
+   
+    width: 100%;
+}
+.grid-img{
+    padding-bottom: 30px;
+}
+.footer{
+    padding-left: 8%;
+
+}
+.footer-left{
+    float: left;
+}
+.heading-footer:after{
+    content: "";
+    display: block;
+    width: 10%;
+    border-bottom:2px solid skyblue;
+}
+.heading-footer{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.email{
+    background-color: #434a53;
+    border-style: none;
+    outline: none;
+    
+
+}
+.button-send{
+    background-color: #599cb8;
+    padding:10px;
+    color:white;
+    border-style: none;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top:10px;
+}
+.bottam-bor{
+    border-bottom: 1px solid #2b2424;
+    float: left;
+    width:300px;
+    
+}
+.right-content-button{		
+    color:white; 		
+    background:#22272c; 		
+    border:1px solid white;		
+    outline: none;		
+    padding:10px 35px 10px 25px;    	
+    border-radius: 30px;    	
+    margin:5px 0px 35px 5px;    	
+    font-weight: bolder;	
+}
+.email-4-main{
+	float:right; 
+	background-color: #22272c;
+	margin-right: 20%;
+	padding: 2% 7% 0% 3%; 
+	}
+	.email-4-main-content{
+	font-size:25px;
+	color:white;
+	font-weight: bolder;
+	}
+
+.text1{
+    padding: 20px;
+}
+.footer-right{
+    background-color: #22262c;
+    color: white;
+    padding: 30px;
+}

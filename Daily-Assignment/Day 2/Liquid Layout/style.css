@@ -1,0 +1,42 @@
+.header{
+    height: 15%;
+    width: 100%;
+    background-color: yellow
+}
+.container{
+    height: 100%;;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-top: 3%;
+    border: 2px solid black;
+    padding: 2%; 
+}
+.image{
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 60%;
+    box-shadow: 2px gray;
+}
+.nav{
+    height:80%;
+    width: 60%;
+    background-color:lightgray;
+    width: 20%;
+    float: left;
+    border: 1px dotted black;
+}
+.nav_contents{
+    font-size: 16px;
+    padding: 25px;
+}
+.main{
+    border: 2px dotted black;
+    margin-left: 22%;
+    height: 80%;
+    width: 75%;
+    background-color: lightgray
+}
+.main_contents{
+    padding: 3%;
+}

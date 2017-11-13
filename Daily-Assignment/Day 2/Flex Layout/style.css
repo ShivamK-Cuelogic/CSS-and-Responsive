@@ -1,0 +1,22 @@
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.flex_row_item{
+    height:35%;
+    width:35%;
+}
+body{
+    overflow: none;
+    width:auto;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_column_item{
+    height:35%;
+    width:35%;
+}

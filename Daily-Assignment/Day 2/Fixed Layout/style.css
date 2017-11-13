@@ -1,0 +1,25 @@
+.container{
+    
+    height: 250%;
+    border: 2px solid black;
+    left: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+.img1{
+    position: fixed;
+    top:40px;
+    height: 15%;
+    width: 40%;
+    clear: both
+}
+body{
+    height: 250%;
+}
+.p1{
+    margin-top:110px;
+    position: fixed;
+}
+.p2{
+    margin-top: 160px;
+}

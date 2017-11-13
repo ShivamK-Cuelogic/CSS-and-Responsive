@@ -1,0 +1,7 @@
+.bg-image{
+    background-image: 
+    image-set(
+        url("Images/bg-600.jpg") 1x,
+        url("Images/bg-1200.jpg") 2x
+    );
+}

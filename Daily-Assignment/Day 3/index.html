@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Responsive images</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bg-image">
+        <h1>Responsive Images</h1>
+        <div>
+            <img srcset="Images/taj-320.jpg 320w,
+            Images/taj-480.jpg 480w,
+            Images/taj-640.jpg 640w"
+            sizes="(max-width: 320px) 320px,
+            (max-width: 480px) 480px,
+            640px" src="Images/taj-640.jpg">
+        </div>
+        <div>
+            <h1>Responsive Image By using Picture and source </h1>
+            <picture>
+                <source media="(min-width:600px)" srcset="Images/taj-640.jpg">
+                <source media="(max-width:500px)" srcset="Images/taj-480.jpg">
+                <img src="Images/taj-640.jpg">
+            </picture>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,42 @@
+.container{
+    height: 50em;
+    width: 70em;
+    border: 2px solid black;
+    margin-left: 3.5em;
+    margin-top: 1.5em;
+    background-color: pink;
+}
+.header{
+    background-color: yellow;
+    height: 6em;
+    border: 1px solid black;
+   
+}
+.image{
+    margin-top: 1.3em; 
+    margin-left: 1.7em;
+}
+.nav{
+    margin-left: 1em;
+    border: 1px dotted black;
+    height:40em;
+    float:left;
+    width:16em;
+    background-color: lightgray
+}
+.nav_contents{
+    margin-left: 1.5em;
+    margin-top: 3.5em;
+}
+.main{
+    background-color: lightgray;
+    border: 1px dotted black;
+    margin-left: 18em;
+    width: 48em;
+    height:38em;
+    padding: 1em;
+
+}
+body{
+    
+}
