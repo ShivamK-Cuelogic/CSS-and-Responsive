@@ -1,161 +1,245 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-@import url(http://weloveiconfonts.com/api/?family=typicons);
 @import url(http://weloveiconfonts.com/api/?family=brandico);
-[class*="typicons-"]:before {
-    font-family: 'typicons', sans-serif;
-    color: white;
-    font-size: 25px;
-}
-[class*="fontawesome-"]:before {
-    font-family: 'fontawesome', sans-serif;
-    font-size: 20px;
-    color: white;
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-}
+/* fontawesome */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+    color: #23272d;
+    height: 5%;
+  }
+/* brandico */
 [class*="brandico-"]:before {
-    font-family: 'brandico', sans-serif;
-    color: white;
-    font-size: 25px;
-    
+  font-family: 'brandico', sans-serif;
 }
-sup{
-    color: #7BB5C7;
-}
-.left_nav{
-    float:left;
-}
-.menu{
-    font-size: 20px;
-    color: white;
-    float: right;
-    margin-right: 5%;
-    margin-top: 1%;
-    padding-left: 8%;
-}
-.container{
-    width:90%;
-    background-color: #434a53;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1%;
-    
-}
-.portfolio:after{
-content: "";
-display: block;
-width: 6%;
-border-bottom:4px solid skyblue;
-}
-li{
-    padding:10px;
-}
-.padding-zero
-{
-    padding-top: 0px;
-    margin-top: 0px;
-}
-.main{
-    background-color: #22262c;
-    padding-left: 8% !important;
-    padding: 3% ;
-    margin-top: 7px;
-}
-.main_contents{
-    border: 2px solid white;
-}
-.ten{
-    font-family: system-ui;
-    font-size: 20px;
-    color: white;
-    padding-left:8%;
-    font-weight: 700;
-}
-.portfolio{
-    font-size: 40px;
-    color: white;
-    font-weight: 700;  
-}
-.contents{
-   
-    padding: 8%;
-}
-img{
-    height: 40%;
-   
-    width: 100%;
-}
-.grid-img{
-    padding-bottom: 30px;
-}
-.footer{
-    padding-left: 8%;
+@media(max-width:678px){
 
+        .container .menu{
+         padding-top:13px;
+        }
+        .container .left-nav{
+            float:none;
+        }
+        .container .image-grid{
+           
+            float:none;
+            display: block;
+            width:100%;
+        }
+        .container .footer-left-side{
+            width: 100%;
+            float: none;
+        }
+        .container .footer-right-side{
+            width: 100%;
+            float: none;
+        }
+        .container #email{
+            width:90%;
+            padding-bottom: 5px;
+        }
+        .container .button-send{
+            margin-top: 15px;
+        }
+        
 }
-.footer-left{
-    float: left;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body-heading h1{
+    font-size: 35px;
+    padding: 0;
+    margin:0px;
+    padding-top: 2%;
+    
 }
-.heading-footer:after{
+.button-send{
+    padding: 15px 30px 15px 30px;
+    color:white;
+    background-color: #599cb8;
+    border: none;
+    border-radius: 20px;
+   
+}
+.footer-left-side #p1::after{
     content: "";
     display: block;
-    width: 10%;
-    border-bottom:2px solid skyblue;
+    width:20%;
+    border-bottom: 1px solid lightblue;
 }
-.heading-footer{
+.body-heading h1:after{
+    content: "";
+    display: block;
+    width: 8%;
+    border-bottom:1px solid skyblue;
+ }
+.body-heading span{
+    font-size: 10px;
+}
+
+.body-heading h1 sup{
+    font-size: 25px;
+    color: lightblue;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #434a53;
+    line-height: 1.5;
+    margin:0;
+    padding: 0;
+}
+ul li:hover{
+    font-weight: 700;
+    color: white;
+}
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.footer-left-side{
+    color:white;
+    width: 70%;
+    float: left;
+    margin-top:5%;
+}
+.button-get-in-touch{
+    background: #23272d;
+    border: 2px solid lightgray;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+}
+.social p{
+    color:lightgray;
+    font-size:15px;
+}
+.social span{
+    color:white;
+    font-size:20px;
+}
+.footer-right-side{
+    float: right;
+    width:25%;
+    margin-top:5%;
+    padding: 2%;
     font-size: 35px;
     font-weight: 700;
     color: white;
 }
-.email{
-    background-color: #434a53;
-    border-style: none;
-    outline: none;
-    
-
+button:hover{
+   font-weight: bold;
 }
-.button-send{
-    background-color: #599cb8;
-    padding:10px;
+.social span:hover{
     color:white;
-    border-style: none;
-    border-radius: 20px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right:25px;
-    padding-top:10px;
+   
+    font-weight: 700;
 }
-.bottam-bor{
-    border-bottom: 1px solid #2b2424;
-    float: left;
-    width:300px;
-    
-}
-.right-content-button{		
-    color:white; 		
-    background:#22272c; 		
-    border:1px solid white;		
-    outline: none;		
-    padding:10px 35px 10px 25px;    	
-    border-radius: 30px;    	
-    margin:5px 0px 35px 5px;    	
-    font-weight: bolder;	
-}
-.email-4-main{
-	float:right; 
-	background-color: #22272c;
-	margin-right: 20%;
-	padding: 2% 7% 0% 3%; 
-	}
-	.email-4-main-content{
-	font-size:25px;
-	color:white;
-	font-weight: bolder;
-	}
 
-.text1{
-    padding: 20px;
+.footer-right-side p{
+    background-color: #23272d;
+    padding: 15px 5px 15px 20px;
 }
-.footer-right{
-    background-color: #22262c;
+.footer-left-side #p1{
+   font-size: 35px;
+   font-weight: 700;
+}
+.footer-left-side .p2{
+    font-size: 15px;
+    color: lightgray;
+ 
+ }
+
+.footer-left-side #span1{
+    font-size: 50px;
+    font-weight: 700;
+    color: lightblue;
+}
+.left-nav{
+    float: left;
+    width: 20%;
+    margin-top:8%;
+}
+ul li{
+    padding:5%;
+}
+
+#email{
+    background-color: #434a53;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #23272d;
+    width:60%;
+}
+.image-grid img:hover{
+box-shadow: 0px 0px 40px #000;
+}
+.logo{
+    width:70%;
+    float: left;
+}
+.p3{
+    color: lightgray;
+    font-size: 10px;
+}
+ul{
+    list-style: none;
+    display: inline;
+    color: lightgray;
+}
+#heading{
+    background-color: #23272d;
     color: white;
-    padding: 30px;
+    padding-bottom: 2%;
 }
+.menu{
+    float: right;
+    padding-top:1.5%;
+    font-weight: 700;
+}
+header{
+    color: white;
+    border: 1px solid black;
+}
+.logo span{
+    font-size: 30px;
+    color: lightblue;
+}
+.logo sup{
+    font-size: 20px;
+    font-weight: 100;
+    color: lightblue;
+}
+
+.logo h1{
+    padding: 0px;
+    margin:0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.image-grid{
+    margin-top:8%;
+    float: right;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2%;
+    width:80%;
+}
+.image-grid .image{
+   margin-top: 6%;
+    width: 100%;
+}
+
+
