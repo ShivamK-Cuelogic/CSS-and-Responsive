@@ -1,174 +1,301 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-@import url(http://weloveiconfonts.com/api/?family=typicons);
 @import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+/* typicons */
 [class*="typicons-"]:before {
     font-family: 'typicons', sans-serif;
-    color: white;
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+  }
+/* fontawesome */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+    color: #23272d;
+    height: 5%;
+  }
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
 }
-[class*="fontawesome-"]:before {
-    font-family: 'fontawesome', sans-serif;
+@media(max-width:678px){
+    
+            .container .menu{
+             padding-top:13px;
+            }
+            section .main{
+                float:none;
+                width:100%;
+                padding-left: 0px;
+            }
+            
+            .container .footer-left-side{
+                width: 100%;
+                float: none;
+            }
+            body aside{
+                width:100%;  
+            }
+            
+            .container .footer-right-side{
+                width: 100%;
+                float: none;
+            }
+            .container #email{
+                width:90%;
+                padding-bottom: 5px;
+            }
+            .container .button-send{
+                margin-top: 15px;
+            }
+            
+    }
+
+
+
+
+
+
+
+.main-content-header{
+    color: lightblue;
     font-size: 20px;
-    color: white;
+}
+.button-read-more{
+    color:white;
+    background:#434a53;
+    border-radius:25px;
+    border: 2px solid lightblue;
+    padding: 15px 25px 15px 25px;
+    float: right;
+     
 
 }
-[class*="brandico-"]:before {
-    font-family: 'brandico', sans-serif;
-    color: white;
-    font-size: 25px;
-    
+.content{
+   padding-bottom: 15%;
 }
-sup{
-    color: #7BB5C7;
-}
-.menu{
-    font-size: 20px;
-    color: white;
-    float: right;
-    margin-right: 5%;
-    margin-top: 1%;
-    padding-left: 8%;
-}
-.portfolio{
-    font-size: 40px;
-    color: white;
-    font-weight: 700;  
-}
-.ten{
-    font-family: system-ui;
-    font-size: 20px;
-    color: white;
-    padding-left:8%;
-    font-weight: 700;
-}
-.container{
-    width:90%;
-    background-color: #434a53;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1%;
-    
-}
-.main-contents{
+.description{
     color:lightgray;
+    font-size: 15px;
+}
+.likes{
+    color: white;
+    font-size: 20px;
+}
+.nav{
+    color: lightblue;
     
 }
-.search{
-    font-size: 15px;
-    background-color: #434a53;
-    border: 1px solid #312f2f;
-    width: 220px;
-    height: 30px;
-    outline: none;
+.post img{
+    width:100%;
+    float: left; 
 }
-.sidebar{
-    float: right;
-    font-size:30px;
-    padding-right: 12%;
+.post{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 15px;
 }
-.portfolio:after{
-content: "";
-display: block;
-width: 6%;
-border-bottom:1px solid skyblue;
+.post span{
+    float:left;
+}
+img:hover{
+    box-shadow: 0 0 40px #000;
+}
+.tag:hover{
+    background-color: lightblue;
+    color:black;
+}
+.insta-images img{
+    width:100%;
+}
+.insta-images{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap:10px;
+}
+.posts-heading{
+    color: lightgray;
+    font-size: 14px;
+    margin-top:5px;
+    
+}
+.tag{
+    color: white;
+    background-color: #23272d;
+    padding: 3px 5px 1px 5px;
 }
 .main{
-    background-color: #22262c;
-    padding-left: 8% !important;
-    padding: 3% ;
-    margin-top: 7px;
-}
-.footer{
-    padding-left: 8%;
-
-}
-.footer-left{
+    width:55%;
+    padding-top:7%;
+    padding-left: 5%;
     float: left;
+    color:white;
 }
-.heading-footer:after{
+.nav input{
+    background: #303034;
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 30px;
+}
+.info p span{
+    color:orange;
+}
+.content img{
+    width:100%;
+}
+aside{
+    width: 30%;
+    float: left;
+    padding-top: 7%;
+}
+.body-heading h1{
+    font-size: 35px;
+    padding: 0;
+    margin:0px;
+    padding-top: 2%;
+    
+}
+.button-send{
+    padding: 15px 30px 15px 30px;
+    color:white;
+    background-color: #599cb8;
+    border: none;
+    border-radius: 20px;
+   
+}
+.footer-left-side #p1::after{
     content: "";
     display: block;
-    width: 10%;
-    border-bottom:2px solid skyblue;
+    width:20%;
+    border-bottom: 1px solid lightblue;
 }
-.heading-footer{
+.body-heading h1:after{
+    content: "";
+    display: block;
+    width: 8%;
+    border-bottom:1px solid skyblue;
+ }
+.body-heading span{
+    font-size: 10px;
+}
+
+.body-heading h1 sup{
+    font-size: 25px;
+    color: lightblue;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #434a53;
+    line-height: 1.5;
+    margin:0;
+    padding: 0;
+}
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.footer-left-side{
+    color:white;
+    width: 70%;
+    float: left;
+    margin-top:5%;
+}
+.button-get-in-touch{
+    background: #23272d;
+    border: 2px solid lightgray;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+}
+.social p{
+    color:lightgray;
+    font-size:15px;
+}
+.social span{
+    color:white;
+    font-size:20px;
+}
+.footer-right-side{
+    float: right;
+    width:25%;
+    margin-top:5%;
+    padding: 2%;
     font-size: 35px;
     font-weight: 700;
     color: white;
 }
-.email{
-    background-color: #434a53;
-    border-style: none;
-    outline: none;
-    
-
+button:hover{
+   font-weight: bold;
 }
-.button-send{
-    background-color: #599cb8;
-    padding:10px;
+.social span:hover{
     color:white;
-    border-style: none;
-    border-radius: 20px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right:25px;
-    padding-top:10px;
+   
+    font-weight: 700;
 }
-.bottam-bor{
-    border-bottom: 1px solid #2b2424;
+
+.footer-right-side p{
+    background-color: #23272d;
+    padding: 15px 5px 15px 20px;
+}
+.footer-left-side #p1{
+   font-size: 35px;
+   font-weight: 700;
+}
+.footer-left-side .p2{
+    font-size: 15px;
+    color: lightgray;
+ 
+ }
+
+.footer-left-side #span1{
+    font-size: 50px;
+    font-weight: 700;
+    color: lightblue;
+}
+#email{
+    background-color: #434a53;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #23272d;
+    width:60%;
+}
+.logo{
+    width:70%;
     float: left;
-    width:300px;
-    
 }
-.right-content-button{		
-    color:white; 		
-    background:#22272c; 		
-    border:1px solid white;		
-    outline: none;		
-    padding:10px 35px 10px 25px;    	
-    border-radius: 30px;    	
-    margin:5px 0px 35px 5px;    	
-    font-weight: bolder;	
+.p3{
+    color: lightgray;
+    font-size: 10px;
 }
-.email-4-main{
-	float:right; 
-	background-color: #22272c;
-	margin-right: 20%;
-	padding: 2% 7% 0% 3%; 
-	}
-	.email-4-main-content{
-	font-size:25px;
-	color:white;
-	font-weight: bolder;
-}
-.footer-right{
-    background-color: #22262c;
+#heading{
+    background-color: #23272d;
     color: white;
-    padding: 30px;
+    padding-bottom: 2%;
 }
-.contents{
-    padding: 8% 0% 5% 13%;
+.menu{
+    float: right;
+    padding-top:1.5%;
+    font-weight: 700;
 }
-.img{
-   border: 0.5px solid black;
+header{
+    color: white;
+    border: 1px solid black;
 }
-.main-content-header{
-    color: #5a9db9;
-    font-size: 22px;
+.logo span{
+    font-size: 30px;
+    color: lightblue;
 }
-.button{
-    border: 1px solid skyblue;
-    padding: 2px 5px 2px 5px;
-    background-color:#434a53;
-    border-radius: 20px;
-    padding: 9px 18px 9px 18px; 
-    margin-left: 39%;
+.logo sup{
+    font-size: 20px;
+    font-weight: 100;
+    color: lightblue;
 }
-.font-min{
-    font-size:13px;
-}
-.prevornext{
-    color:lightblue;
-    margin-left: 20%;
-    margin-top:6%;
+
+.logo h1{
+    padding: 0px;
+    margin:0px;
+    font-weight: 700;
+    font-size: 25px;
 }
